@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - TFExampleLib (0.1.0):
+  - TFExampleLib (0.1.1):
     - AFNetworking (~> 4.0)
 
 DEPENDENCIES:
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  TFExampleLib: ac2cb8fcd451b3ebbc7ca2f20f6f87461b88501b
+  TFExampleLib: cb48be1de143037537f55177964ea4a6d22bdef3
 
-PODFILE CHECKSUM: 0dfc4a9a19599a44abbe4a3a4022e6594028e3f7
+PODFILE CHECKSUM: 43acb4b9198139554f67b59273f5f0f04607c3da
 
 COCOAPODS: 1.9.3

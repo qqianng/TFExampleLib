@@ -4,7 +4,7 @@ platform :ios, '9.0'
 
 target 'TFExampleLib_Example' do
   pod 'TFExampleLib', :path => '../'
-  #pod 'TFExampleLib', :podspec => 'https://raw.githubusercontent.com/qqianng/TFExampleLib/main/TFExampleLib.podspec'
+#  pod 'TFExampleLib', :podspec => 'https://raw.githubusercontent.com/qqianng/TFExampleLib/main/TFExampleLib.podspec'
 
   target 'TFExampleLib_Tests' do
     inherit! :search_paths
