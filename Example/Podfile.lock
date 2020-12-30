@@ -1,0 +1,16 @@
+PODS:
+  - TFExampleLib (0.1.0)
+
+DEPENDENCIES:
+  - TFExampleLib (from `../`)
+
+EXTERNAL SOURCES:
+  TFExampleLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFExampleLib: 7cdb8e877fd7b0a277c9032fa27e07b376d15325
+
+PODFILE CHECKSUM: 0a42faa03331d58c57fb914ff6f2f4bb1643419b
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1641CCE16A1BD382F00C6D2C4619CAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		23A372AF567372906455D5E3C4AB72D0 /* Pods-TFExampleLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 704FCC83D1025F260A8BF6E042711271 /* Pods-TFExampleLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33EB7EC0A6BB655C7C8C824A7AB3196E /* Pods-TFExampleLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A6BD45F98A789A6F4FDE1AB8165252 /* Pods-TFExampleLib_Example-dummy.m */; };
+		396065AA51AE7CCC319AB53B933B785A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		401BF67A851BBB41D7676CD88ED768D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7270844E1A5ADD4FD6B5588835959A39 /* TFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1791E688E49010AC0F32D97216D4899 /* TFLabel.m */; };
+		95EDB35D12C13CCC57714FD47305A72E /* TFExampleLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B396ACE7D0B66BFE3A99E2665A4A1A86 /* TFExampleLib-dummy.m */; };
+		98117472F4ADBBF10ECD03CD91A06945 /* Pods-TFExampleLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B04884F9FF106550621300C01367F9 /* Pods-TFExampleLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8B6F35ED787A2F7176C0375EE67D8B4 /* TFLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 053C7308598144CF07CB4409E2CA6F55 /* TFLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0FB3531C1A9436715B0DC405A2BA64 /* TFExampleLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF7C3E19F00DE51D5EB1EC5D1ECFDC9 /* TFExampleLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8EE419873D6A2E590E3CBB6BCC7C8EE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2728B872DE7327700A7F51BE17B62DED /* ReplaceMe.m */; };
+		CECC3F28049EF6530F0B3EFA4217BCB4 /* Pods-TFExampleLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 518BE9AC6B6BA27C28AD98BDAA74CCCC /* Pods-TFExampleLib_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62B855602785C2C75F3B5825AC9317CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A42944159F1CB952F561EC74459E271;
+			remoteInfo = TFExampleLib;
+		};
+		980D08F532294F2A41AF025631E080E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EC0B7939C3005AE0EA3882A82F996EC;
+			remoteInfo = "Pods-TFExampleLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053C7308598144CF07CB4409E2CA6F55 /* TFLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLabel.h; path = TFExampleLib/Classes/TFLabel.h; sourceTree = "<group>"; };
+		101615C3D5A2E5D07C8CB79250F7507A /* TFExampleLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TFExampleLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2728B872DE7327700A7F51BE17B62DED /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TFExampleLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2AF7C3E19F00DE51D5EB1EC5D1ECFDC9 /* TFExampleLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFExampleLib-umbrella.h"; sourceTree = "<group>"; };
+		2E4934246A41431C44EE341A15029160 /* Pods_TFExampleLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFExampleLib_Tests.framework; path = "Pods-TFExampleLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35281D6D94E1664A317701B61110407B /* Pods_TFExampleLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFExampleLib_Example.framework; path = "Pods-TFExampleLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356C0B099979E7DA206D8B95BFCDFC73 /* Pods-TFExampleLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFExampleLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BDFCA19F57B92EB6C106BCC8CFF54BF /* TFExampleLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFExampleLib.framework; path = TFExampleLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518BE9AC6B6BA27C28AD98BDAA74CCCC /* Pods-TFExampleLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFExampleLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		61432993C09680B315CAAC9AE9F1E917 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C6BC6003A1649ACEC410FBBA72D13D4 /* Pods-TFExampleLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFExampleLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		6C73434E9B8E8BD1DFAA11F06589C0FC /* Pods-TFExampleLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFExampleLib_Example.modulemap"; sourceTree = "<group>"; };
+		704FCC83D1025F260A8BF6E042711271 /* Pods-TFExampleLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFExampleLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76208FBE37293C41D4B51F2F7417E3FE /* TFExampleLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TFExampleLib-Info.plist"; sourceTree = "<group>"; };
+		7A7EA5F7893D118D654A4CEAF2108E3F /* Pods-TFExampleLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFExampleLib_Tests.modulemap"; sourceTree = "<group>"; };
+		81E56F8A523DF3D7FA319C6370D129CE /* TFExampleLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFExampleLib.debug.xcconfig; sourceTree = "<group>"; };
+		83DA3B3AAEFDD2765D64713E06C181C6 /* TFExampleLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFExampleLib.release.xcconfig; sourceTree = "<group>"; };
+		856A2C3CF8964318609D9E552CAEA69C /* Pods-TFExampleLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFExampleLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8BCF0F560ED2BFA3E6AFD8197381B28D /* Pods-TFExampleLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFExampleLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F931F35DE23C841CE21458E00BF186 /* Pods-TFExampleLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFExampleLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF6C5C95DA7FF80C8E6CE5DF5F14840A /* Pods-TFExampleLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFExampleLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1791E688E49010AC0F32D97216D4899 /* TFLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLabel.m; path = TFExampleLib/Classes/TFLabel.m; sourceTree = "<group>"; };
+		B1B04884F9FF106550621300C01367F9 /* Pods-TFExampleLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFExampleLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B396ACE7D0B66BFE3A99E2665A4A1A86 /* TFExampleLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFExampleLib-dummy.m"; sourceTree = "<group>"; };
+		B60651C8B783EC589F3B5A921607A584 /* Pods-TFExampleLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFExampleLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B7F66A7C2EB9B42ACF6D04651A7FBCDF /* TFExampleLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFExampleLib-prefix.pch"; sourceTree = "<group>"; };
+		C0A6BD45F98A789A6F4FDE1AB8165252 /* Pods-TFExampleLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFExampleLib_Example-dummy.m"; sourceTree = "<group>"; };
+		C6E6598B08C7F7C0B62B3D263DDBDE58 /* TFExampleLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFExampleLib.modulemap; sourceTree = "<group>"; };
+		D6E652D806F72059FF35AF0E54229CAD /* Pods-TFExampleLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFExampleLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0A752F484EAF7A3863952799CE371D0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1E35B769F87805057907DCF91BE577C /* Pods-TFExampleLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFExampleLib_Example-Info.plist"; sourceTree = "<group>"; };
+		F064FA11801759CA4216B7034DD70B8C /* Pods-TFExampleLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFExampleLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF41D49A6AAFBE03641848151C753F8 /* Pods-TFExampleLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFExampleLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F533A9973BDD5AF6F1B881ACC51CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396065AA51AE7CCC319AB53B933B785A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BCBA67B39DF0C7A05463E550E828907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401BF67A851BBB41D7676CD88ED768D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B28CF655272A3F2C9E72518DBBB6B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1641CCE16A1BD382F00C6D2C4619CAED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33597EF118D1A5E1F5E1D2170D249133 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E0A752F484EAF7A3863952799CE371D0 /* LICENSE */,
+				61432993C09680B315CAAC9AE9F1E917 /* README.md */,
+				101615C3D5A2E5D07C8CB79250F7507A /* TFExampleLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		79A3C7491379CB9465ACCED4F25257A5 /* TFExampleLib */ = {
+			isa = PBXGroup;
+			children = (
+				2728B872DE7327700A7F51BE17B62DED /* ReplaceMe.m */,
+				053C7308598144CF07CB4409E2CA6F55 /* TFLabel.h */,
+				B1791E688E49010AC0F32D97216D4899 /* TFLabel.m */,
+				33597EF118D1A5E1F5E1D2170D249133 /* Pod */,
+				A60CB957E507CFCA1551360684F50CE7 /* Support Files */,
+			);
+			name = TFExampleLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9093F02C0F0C8ECCB87B62C9C6595A94 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79A3C7491379CB9465ACCED4F25257A5 /* TFExampleLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A28538CC2EE72D05F0D2848EBF7D8937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35281D6D94E1664A317701B61110407B /* Pods_TFExampleLib_Example.framework */,
+				2E4934246A41431C44EE341A15029160 /* Pods_TFExampleLib_Tests.framework */,
+				3BDFCA19F57B92EB6C106BCC8CFF54BF /* TFExampleLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60CB957E507CFCA1551360684F50CE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6E6598B08C7F7C0B62B3D263DDBDE58 /* TFExampleLib.modulemap */,
+				B396ACE7D0B66BFE3A99E2665A4A1A86 /* TFExampleLib-dummy.m */,
+				76208FBE37293C41D4B51F2F7417E3FE /* TFExampleLib-Info.plist */,
+				B7F66A7C2EB9B42ACF6D04651A7FBCDF /* TFExampleLib-prefix.pch */,
+				2AF7C3E19F00DE51D5EB1EC5D1ECFDC9 /* TFExampleLib-umbrella.h */,
+				81E56F8A523DF3D7FA319C6370D129CE /* TFExampleLib.debug.xcconfig */,
+				83DA3B3AAEFDD2765D64713E06C181C6 /* TFExampleLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TFExampleLib";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9093F02C0F0C8ECCB87B62C9C6595A94 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A28538CC2EE72D05F0D2848EBF7D8937 /* Products */,
+				F64827CCB4D20E40E2E580B062520121 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D5A27EC49AF430CB1077739875CE45 /* Pods-TFExampleLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7EA5F7893D118D654A4CEAF2108E3F /* Pods-TFExampleLib_Tests.modulemap */,
+				FFF41D49A6AAFBE03641848151C753F8 /* Pods-TFExampleLib_Tests-acknowledgements.markdown */,
+				D6E652D806F72059FF35AF0E54229CAD /* Pods-TFExampleLib_Tests-acknowledgements.plist */,
+				518BE9AC6B6BA27C28AD98BDAA74CCCC /* Pods-TFExampleLib_Tests-dummy.m */,
+				6C6BC6003A1649ACEC410FBBA72D13D4 /* Pods-TFExampleLib_Tests-Info.plist */,
+				B1B04884F9FF106550621300C01367F9 /* Pods-TFExampleLib_Tests-umbrella.h */,
+				AF6C5C95DA7FF80C8E6CE5DF5F14840A /* Pods-TFExampleLib_Tests.debug.xcconfig */,
+				8BCF0F560ED2BFA3E6AFD8197381B28D /* Pods-TFExampleLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-TFExampleLib_Tests";
+			path = "Target Support Files/Pods-TFExampleLib_Tests";
+			sourceTree = "<group>";
+		};
+		F5EE2027C092A0FEDF47B0A8053149D6 /* Pods-TFExampleLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C73434E9B8E8BD1DFAA11F06589C0FC /* Pods-TFExampleLib_Example.modulemap */,
+				A1F931F35DE23C841CE21458E00BF186 /* Pods-TFExampleLib_Example-acknowledgements.markdown */,
+				356C0B099979E7DA206D8B95BFCDFC73 /* Pods-TFExampleLib_Example-acknowledgements.plist */,
+				C0A6BD45F98A789A6F4FDE1AB8165252 /* Pods-TFExampleLib_Example-dummy.m */,
+				B60651C8B783EC589F3B5A921607A584 /* Pods-TFExampleLib_Example-frameworks.sh */,
+				E1E35B769F87805057907DCF91BE577C /* Pods-TFExampleLib_Example-Info.plist */,
+				704FCC83D1025F260A8BF6E042711271 /* Pods-TFExampleLib_Example-umbrella.h */,
+				F064FA11801759CA4216B7034DD70B8C /* Pods-TFExampleLib_Example.debug.xcconfig */,
+				856A2C3CF8964318609D9E552CAEA69C /* Pods-TFExampleLib_Example.release.xcconfig */,
+			);
+			name = "Pods-TFExampleLib_Example";
+			path = "Target Support Files/Pods-TFExampleLib_Example";
+			sourceTree = "<group>";
+		};
+		F64827CCB4D20E40E2E580B062520121 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5EE2027C092A0FEDF47B0A8053149D6 /* Pods-TFExampleLib_Example */,
+				E9D5A27EC49AF430CB1077739875CE45 /* Pods-TFExampleLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4835E933E276F079AADE5790AA36691D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98117472F4ADBBF10ECD03CD91A06945 /* Pods-TFExampleLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52B140F224E0574A4EBC474452B765A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0FB3531C1A9436715B0DC405A2BA64 /* TFExampleLib-umbrella.h in Headers */,
+				B8B6F35ED787A2F7176C0375EE67D8B4 /* TFLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF71B557E3106705F4AA95B4F9BB331 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A372AF567372906455D5E3C4AB72D0 /* Pods-TFExampleLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A42944159F1CB952F561EC74459E271 /* TFExampleLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9DC35167522E104054A03321AD6BD1 /* Build configuration list for PBXNativeTarget "TFExampleLib" */;
+			buildPhases = (
+				52B140F224E0574A4EBC474452B765A0 /* Headers */,
+				4EAFF86260E672E58B3CDB50875FFB11 /* Sources */,
+				8B28CF655272A3F2C9E72518DBBB6B5E /* Frameworks */,
+				CA37DEF551F1F2F84288140F7DE37D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFExampleLib;
+			productName = TFExampleLib;
+			productReference = 3BDFCA19F57B92EB6C106BCC8CFF54BF /* TFExampleLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EC0B7939C3005AE0EA3882A82F996EC /* Pods-TFExampleLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D08703E28EDF7D50C6FA0DDF8D2318D /* Build configuration list for PBXNativeTarget "Pods-TFExampleLib_Example" */;
+			buildPhases = (
+				DFF71B557E3106705F4AA95B4F9BB331 /* Headers */,
+				8C21E53FFE30B3CBC7483C4D1B96A2B7 /* Sources */,
+				47F533A9973BDD5AF6F1B881ACC51CD1 /* Frameworks */,
+				C556590456CC8CA52F2B6FFF828C7F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				729D0FAE89BD2573622E0E326F1C14B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TFExampleLib_Example";
+			productName = "Pods-TFExampleLib_Example";
+			productReference = 35281D6D94E1664A317701B61110407B /* Pods_TFExampleLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E73CE76850439CEA9D9D25D36AE47BDD /* Pods-TFExampleLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1FF7CCE75C6CBF7AE0FD689C59E012 /* Build configuration list for PBXNativeTarget "Pods-TFExampleLib_Tests" */;
+			buildPhases = (
+				4835E933E276F079AADE5790AA36691D /* Headers */,
+				3D212777EEA9DACAAD366DF59A284A43 /* Sources */,
+				5BCBA67B39DF0C7A05463E550E828907 /* Frameworks */,
+				B44499C7E53243904F91AB9C9D8926F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD909E8D5B3E4AB6B5EFEAD86ACE38C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TFExampleLib_Tests";
+			productName = "Pods-TFExampleLib_Tests";
+			productReference = 2E4934246A41431C44EE341A15029160 /* Pods_TFExampleLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A28538CC2EE72D05F0D2848EBF7D8937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC0B7939C3005AE0EA3882A82F996EC /* Pods-TFExampleLib_Example */,
+				E73CE76850439CEA9D9D25D36AE47BDD /* Pods-TFExampleLib_Tests */,
+				1A42944159F1CB952F561EC74459E271 /* TFExampleLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B44499C7E53243904F91AB9C9D8926F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C556590456CC8CA52F2B6FFF828C7F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA37DEF551F1F2F84288140F7DE37D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D212777EEA9DACAAD366DF59A284A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECC3F28049EF6530F0B3EFA4217BCB4 /* Pods-TFExampleLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EAFF86260E672E58B3CDB50875FFB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EE419873D6A2E590E3CBB6BCC7C8EE /* ReplaceMe.m in Sources */,
+				95EDB35D12C13CCC57714FD47305A72E /* TFExampleLib-dummy.m in Sources */,
+				7270844E1A5ADD4FD6B5588835959A39 /* TFLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C21E53FFE30B3CBC7483C4D1B96A2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EB7EC0A6BB655C7C8C824A7AB3196E /* Pods-TFExampleLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		729D0FAE89BD2573622E0E326F1C14B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFExampleLib;
+			target = 1A42944159F1CB952F561EC74459E271 /* TFExampleLib */;
+			targetProxy = 62B855602785C2C75F3B5825AC9317CC /* PBXContainerItemProxy */;
+		};
+		DD909E8D5B3E4AB6B5EFEAD86ACE38C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TFExampleLib_Example";
+			target = 3EC0B7939C3005AE0EA3882A82F996EC /* Pods-TFExampleLib_Example */;
+			targetProxy = 980D08F532294F2A41AF025631E080E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		318B8411E985865F50BDDA8042212E77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DA3B3AAEFDD2765D64713E06C181C6 /* TFExampleLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFExampleLib/TFExampleLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFExampleLib/TFExampleLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFExampleLib/TFExampleLib.modulemap";
+				PRODUCT_MODULE_NAME = TFExampleLib;
+				PRODUCT_NAME = TFExampleLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52FA974F9D2B25E081B4752D13891DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856A2C3CF8964318609D9E552CAEA69C /* Pods-TFExampleLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFExampleLib_Example/Pods-TFExampleLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFExampleLib_Example/Pods-TFExampleLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CEFFD3A00835674712D5320CE7A49D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6C5C95DA7FF80C8E6CE5DF5F14840A /* Pods-TFExampleLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFExampleLib_Tests/Pods-TFExampleLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFExampleLib_Tests/Pods-TFExampleLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DC4978935B483888DC4ECB43B89D9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCF0F560ED2BFA3E6AFD8197381B28D /* Pods-TFExampleLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFExampleLib_Tests/Pods-TFExampleLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFExampleLib_Tests/Pods-TFExampleLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87D4F20D4034D754AD53B9BAFE4739EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E56F8A523DF3D7FA319C6370D129CE /* TFExampleLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFExampleLib/TFExampleLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFExampleLib/TFExampleLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFExampleLib/TFExampleLib.modulemap";
+				PRODUCT_MODULE_NAME = TFExampleLib;
+				PRODUCT_NAME = TFExampleLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5B37C9581A90B4C76A63A250E77F57D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F064FA11801759CA4216B7034DD70B8C /* Pods-TFExampleLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFExampleLib_Example/Pods-TFExampleLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFExampleLib_Example/Pods-TFExampleLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1FF7CCE75C6CBF7AE0FD689C59E012 /* Build configuration list for PBXNativeTarget "Pods-TFExampleLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEFFD3A00835674712D5320CE7A49D9 /* Debug */,
+				7DC4978935B483888DC4ECB43B89D9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F9DC35167522E104054A03321AD6BD1 /* Build configuration list for PBXNativeTarget "TFExampleLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D4F20D4034D754AD53B9BAFE4739EC /* Debug */,
+				318B8411E985865F50BDDA8042212E77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D08703E28EDF7D50C6FA0DDF8D2318D /* Build configuration list for PBXNativeTarget "Pods-TFExampleLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B37C9581A90B4C76A63A250E77F57D /* Debug */,
+				52FA974F9D2B25E081B4752D13891DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
