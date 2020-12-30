@@ -7,6 +7,9 @@
 //
 
 #import "TFViewController.h"
+#import <AFNetworking.h>
+#import <TFLabel.h>
+#import <TFView.h>
 
 @interface TFViewController ()
 
@@ -17,7 +20,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+//    TFLabel *label = [[TFLabel alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+//    [self.view addSubview:label];
+    
+    TFView *view = [[TFView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

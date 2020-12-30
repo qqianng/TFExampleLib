@@ -18,5 +18,17 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TFExampleLib/Classes/**/*"
+  "source_files": "TFExampleLib/Classes/**/*",
+  "resource_bundles": {
+    "TFExampleLib": [
+      "TFExampleLib/Assets/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0"
+    ]
+  }
 }

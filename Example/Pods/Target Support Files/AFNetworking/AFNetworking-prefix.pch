@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#import "TFLabel.h"
-#import "TFView.h"
-
-FOUNDATION_EXPORT double TFExampleLibVersionNumber;
-FOUNDATION_EXPORT const unsigned char TFExampleLibVersionString[];
-
