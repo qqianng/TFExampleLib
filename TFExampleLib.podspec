@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TFExampleLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of TFExampleLib.'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TFExampleLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TFExampleLib' => ['TFExampleLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'TFExampleLib' => ['TFExampleLib/Assets/*']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'AFNetworking', '~> 4.0'
 end
